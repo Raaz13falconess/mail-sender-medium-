@@ -16,7 +16,9 @@ This project is a Node.js-based email sending service using SMTP with `nodemaile
 
 First, clone the repository to your local machine using the following command:
 
-> git clone https://github.com/your-username/email-sending-service.git
+```
+git clone https://github.com/your-username/email-sending-service.git 
+```
 
 
 Replace `your-username` with your actual GitHub username and `email-sending-service` with the name of your repository.
@@ -25,10 +27,10 @@ Replace `your-username` with your actual GitHub username and `email-sending-serv
 
 Navigate to the project directory and install the required dependencies using `npm`:
 
-\`\`\`bash
-cd email-sending-service
-npm install
-\`\`\`
+
+    cd email-sending-service
+    npm install
+
 
 This will install all the necessary packages defined in the `package.json` file.
 
