@@ -16,7 +16,7 @@ This project is a Node.js-based email sending service using SMTP with `nodemaile
 
 First, clone the repository to your local machine using the following command:
 
-\`\`\`bash
+\`\`\`
 git clone https://github.com/your-username/email-sending-service.git
 \`\`\`
 
