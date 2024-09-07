@@ -40,11 +40,11 @@ This will install all the necessary packages defined in the `package.json` file.
 
 Create a `.env` file in the root of the project directory and add the following environment variables:
 
-\`\`\`bash
-APP_PASSWORD=your-gmail-app-password
-APP_EMAIL=your-host-email-address
-PORT=5000
-\`\`\`
+
+    APP_PASSWORD=your-gmail-app-password
+    APP_EMAIL=your-host-email-address
+    PORT=5000
+
 
 - `APP_PASSWORD`: Your Gmail app password, which you can generate from your Google account under security settings.
 - `APP_EMAIL`: Your host email address from which the emails will be sent.
@@ -56,9 +56,9 @@ PORT=5000
 
 Once you have set up the environment variables, start the server by running:
 
-\`\`\`bash
+```
 npm start
-\`\`\`
+```
 
 The server will start running on the port specified in the `.env` file (default: `5000`).
 
@@ -77,20 +77,20 @@ This endpoint allows you to send an email. The request body should include the f
 
 #### Example Request
 
-\`\`\`json
+```json
 {
   "name": "John Doe",
   "email": "johndoe@example.com"
 }
-\`\`\`
+```
 
 #### Example Response
 
-\`\`\`json
+```json
 {
   "message": "Email sent successfully"
 }
-\`\`\`
+```
 
 ## License
 
