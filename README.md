@@ -8,7 +8,7 @@ This project is a Node.js-based email sending service using SMTP with `nodemaile
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [API Endpoint](#api-endpoint)
-- [License](#license)
+
 
 ## Installation
 
@@ -92,6 +92,3 @@ This endpoint allows you to send an email. The request body should include the f
 }
 ```
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
